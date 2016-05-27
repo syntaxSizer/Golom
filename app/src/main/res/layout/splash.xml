@@ -4,4 +4,22 @@
     android:background="@drawable/login"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="166dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/logo"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Connect * Grow *Impact"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"/>
 </LinearLayout>
