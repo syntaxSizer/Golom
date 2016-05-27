@@ -30,7 +30,7 @@
         android:hint="username"
         android:background="#fff"
         android:padding="9dp"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:layout_alignLeft="@+id/imageView2"
         android:layout_alignStart="@+id/imageView2"
         android:layout_alignRight="@+id/imageView2"
@@ -44,13 +44,14 @@
         android:hint="password"
         android:background="#fff"
         android:padding="9dp"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:textAlignment="center"
         android:layout_below="@+id/editText"
         android:layout_alignLeft="@+id/editText"
         android:layout_alignStart="@+id/editText"
         android:layout_alignRight="@+id/editText"
-        android:layout_alignEnd="@+id/editText" />
+        android:layout_alignEnd="@+id/editText"
+        android:textColor="#222" />
 
     <Button
         android:layout_width="wrap_content"
@@ -61,5 +62,9 @@
         android:layout_alignLeft="@+id/editText2"
         android:layout_alignStart="@+id/editText2"
         android:layout_alignRight="@+id/editText2"
-        android:layout_alignEnd="@+id/editText2" />
+        android:layout_alignEnd="@+id/editText2"
+        android:backgroundTint="#00D663"
+        android:textColor="#fff"
+        android:textSize="23dp"
+        android:layout_marginTop="8dp"/>
 </RelativeLayout>

@@ -1,9 +1,8 @@
+package com.android.qusai.golom;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.android.qusai.golom.R;
-import com.android.qusai.golom.first;
 
 /**
  * Created by qusai on 5/27/16.
