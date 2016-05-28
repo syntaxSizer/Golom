@@ -40,7 +40,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2"
+        android:id="@+id/thebutton"
         android:hint="password"
         android:background="#fff"
         android:padding="9dp"
@@ -50,19 +50,18 @@
         android:layout_alignLeft="@+id/editText"
         android:layout_alignStart="@+id/editText"
         android:layout_alignRight="@+id/editText"
-        android:layout_alignEnd="@+id/editText"
-        android:textColor="#222" />
+        android:layout_alignEnd="@+id/editText" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="login"
         android:id="@+id/button"
-        android:layout_below="@+id/editText2"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignStart="@+id/editText2"
-        android:layout_alignRight="@+id/editText2"
-        android:layout_alignEnd="@+id/editText2"
+        android:layout_below="@+id/thebutton"
+        android:layout_alignLeft="@+id/thebutton"
+        android:layout_alignStart="@+id/thebutton"
+        android:layout_alignRight="@+id/thebutton"
+        android:layout_alignEnd="@+id/thebutton"
         android:backgroundTint="#00D663"
         android:textColor="#fff"
         android:textSize="23dp"
